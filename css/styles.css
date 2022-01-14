@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 :root {
   --primary-color: #c5d165;
   --link-color: #006055;
@@ -18,9 +22,12 @@
 
 body {
   background-color: var(--primary-color);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 
   /* Sets the font size to 16px */
 
@@ -182,6 +189,7 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: auto;
 }
 
 .profile {

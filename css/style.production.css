@@ -4,10 +4,12 @@
 * Autoprefixer: v10.3.1
 * Browsers: last 2 version
 */
-
+html {
+  height: 100%;
+}
 body {
   background-color: #c5d165;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
 
@@ -15,6 +17,10 @@ body {
   line-height: 1.6;
 
   /* Sets the line-height to 1.6 */
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -241,6 +247,7 @@ button:focus,
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  margin-top: auto;
 }
 
 .profile {
