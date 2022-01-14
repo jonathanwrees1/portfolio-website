@@ -194,7 +194,7 @@ button:focus,
 
 .profile {
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .page-header {
