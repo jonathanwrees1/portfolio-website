@@ -83,6 +83,12 @@ a:active {
   margin: 0 auto;
   text-align: left;
 }
+.workitout {
+  margin: 0 40px;
+}
+.contactyaboy {
+  margin: 0 20px;
+}
 
 button,
 .button {
